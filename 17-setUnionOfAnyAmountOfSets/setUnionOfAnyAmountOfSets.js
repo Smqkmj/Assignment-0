@@ -1,13 +1,14 @@
 function setUnionOfAnyAmountOfSets(...args) {
   // Insert code here;
-  var unionSet= new Set();
+  var set = new Set();
   
-  for (let srt of args){
-	for (let nums of srt){
-		unionSet.add(nums);
-	}
+  for(var i = 0; i < args.length; i++) {
+    for(let j of args[i]) {
+      set.add(j);
+    }   
   }
-	return unionSet;
+
+  return set;
 }
 
 // Do not edit this line;
