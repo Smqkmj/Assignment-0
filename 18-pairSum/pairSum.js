@@ -1,6 +1,7 @@
 function pairSum(nums, target) {
 	// Insert code here;
-
+if(nums.length<=1)
+throw 'there need more numbers!';
 	for (var i = 0; i < nums.length; i++) {
 		for (var j = 0; j < nums.length; j++) {
 			
