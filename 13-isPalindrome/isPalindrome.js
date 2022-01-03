@@ -1,10 +1,5 @@
 function isPalindrome(word) {
   // Insert code here;
-  //THE CURRENT STATE OF TESTING
-  // √ should return a boolean value
-  // 1) should return true if the input `word` is a palindrome
-  // √ should return false if the input `word` is not a palindrome
-  // 2) should pass auxillary test cases
 
   let falseCounter = 0;
   let halfWord = Math.ceil(word.length/2);
